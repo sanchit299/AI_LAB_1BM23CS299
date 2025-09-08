@@ -1,0 +1,111 @@
+Enter start state (e.g., 724506831): 123654087
+Start state:
+1 2 3
+6 5 4
+  8 7
+
+Total states visited: 782
+Solution found!
+Moves: R U R D L U L D R U R D L U L D R U R D
+Number of moves: 20
+1BM23CS299 sanchit mehta
+
+Move 1: R
+1 2 3
+6 5 4
+8   7
+
+Move 2: U
+1 2 3
+6   4
+8 5 7
+
+Move 3: R
+1 2 3
+6 4  
+8 5 7
+
+Move 4: D
+1 2 3
+6 4 7
+8 5  
+
+Move 5: L
+1 2 3
+6 4 7
+8   5
+
+Move 6: U
+1 2 3
+6   7
+8 4 5
+
+Move 7: L
+1 2 3
+  6 7
+8 4 5
+
+Move 8: D
+1 2 3
+8 6 7
+  4 5
+
+Move 9: R
+1 2 3
+8 6 7
+4   5
+
+Move 10: U
+1 2 3
+8   7
+4 6 5
+
+Move 11: R
+1 2 3
+8 7  
+4 6 5
+
+Move 12: D
+1 2 3
+8 7 5
+4 6  
+
+Move 13: L
+1 2 3
+8 7 5
+4   6
+
+Move 14: U
+1 2 3
+8   5
+4 7 6
+
+Move 15: L
+1 2 3
+  8 5
+4 7 6
+
+Move 16: D
+1 2 3
+4 8 5
+  7 6
+
+Move 17: R
+1 2 3
+4 8 5
+7   6
+
+Move 18: U
+1 2 3
+4   5
+7 8 6
+
+Move 19: R
+1 2 3
+4 5  
+7 8 6
+
+Move 20: D
+1 2 3
+4 5 6
+7 8  
