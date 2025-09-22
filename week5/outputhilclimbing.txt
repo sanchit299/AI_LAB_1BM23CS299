@@ -1,0 +1,66 @@
+Enter the number of queens (N): 4
+
+=== Restart 1 ===
+
+Initial state (heuristic: 3):
+Q . Q . 
+. Q . . 
+. . . Q 
+. . . . 
+
+Step 1: (heuristic: 1)
+. . Q . 
+. Q . . 
+. . . Q 
+Q . . . 
+
+Reached local minimum at step 1, heuristic: 1
+❌ No solution in this attempt (local minimum).
+
+
+=== Restart 2 ===
+
+Initial state (heuristic: 3):
+. Q . . 
+. . Q . 
+. . . . 
+Q . . Q 
+
+Step 1: (heuristic: 1)
+. Q . . 
+. . Q . 
+Q . . . 
+. . . Q 
+
+Reached local minimum at step 1, heuristic: 1
+❌ No solution in this attempt (local minimum).
+
+
+=== Restart 3 ===
+
+Initial state (heuristic: 2):
+. . . . 
+. Q . Q 
+. . . . 
+Q . Q . 
+
+Step 1: (heuristic: 1)
+. Q . . 
+. . . Q 
+. . . . 
+Q . Q . 
+
+Step 2: (heuristic: 0)
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+Reached local minimum at step 2, heuristic: 0
+✅ Solution found after 3 restart(s):
+. Q . . 
+. . . Q 
+Q . . . 
+. . Q . 
+
+1BM23CS299 sanchit
